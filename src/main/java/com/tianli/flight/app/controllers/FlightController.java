@@ -1,9 +1,8 @@
-package com.tianli.flight.app.restcontroller;
+package com.tianli.flight.app.controllers;
 
 import com.tianli.flight.app.model.Flight;
 import com.tianli.flight.app.repos.FlightRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Date;

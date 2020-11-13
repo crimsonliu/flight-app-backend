@@ -1,9 +1,12 @@
-package com.tianli.flight.app.restcontroller;
+package com.tianli.flight.app.controllers;
 
 import com.tianli.flight.app.model.User;
 import com.tianli.flight.app.repos.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin("*")
